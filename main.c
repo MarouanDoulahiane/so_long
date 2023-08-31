@@ -1,3 +1,5 @@
+// >>>>>> I must to add if there is a valid path for all chest , Good Luck dude ;)
+
 #include "includes.h"
 #include <X11/X.h>
 #include <X11/keysym.h>
@@ -316,13 +318,19 @@ int	findPath(Point start, Point end, int rows, int cols, char **texture)
 	int j;
 
 	i = 0;
-	// while (i < rows)
-	// {
-    //     while (j < cols) {
+	while (i < rows)
+	{
+		j = 0;
+        while (j < cols) {
+            visited[i][j] = 0;
+			j++;
+        }
+		i++;
+    }
+	//     for (int i = 0; i < rows; i++) {
+    //     for (int j = 0; j < cols; j++) {
     //         visited[i][j] = 0;
-	// 		j++;
     //     }
-	// 	i++;
     // }
 
 	// Pointers for our queue
