@@ -34,10 +34,6 @@ To play the minigame, launch it with the following shell command:
 ```shell
 $ ./so_long <map_name>.ber
 ```
-or
-```shell
-$ ./so_long_bonus <map_name>.ber
-```
 
 Several sample maps are provided for testing:
 - "map1.ber": Simple map
