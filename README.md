@@ -11,7 +11,7 @@ For more detailed information, refer to the [subject of this project](https://gi
 
 ### Requirements
 To compile and run the program, ensure you have:
-- `gcc` compiler
+- `cc` compiler
 - Standard C libraries
 
 ### Instructions
